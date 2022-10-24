@@ -17,7 +17,7 @@ class MyAdapter(
     override fun getItem(position: Int): Fragment {
         return when (position){
             0 -> {
-                tienda()
+                Tienda()
             }
             1 -> {
                 mistiendas()

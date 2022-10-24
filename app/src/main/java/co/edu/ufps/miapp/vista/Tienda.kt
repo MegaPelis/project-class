@@ -50,12 +50,11 @@ class Tienda : Fragment() {
         val linearLayout = LinearLayoutManager(context)
         linearLayout.orientation = LinearLayoutManager.VERTICAL
         contenedorTienda.layoutManager=linearLayout
-        tiendaAdapter = TiendaAdapter(context,cargarDatosFireBase(),R.id.card)
+        tiendaAdapter = TiendaAdapter(context,cargarDatos(),R.id.card)
         contenedorTienda.adapter=tiendaAdapter
         // registrarLibro = view.findViewById(R.id.registrar_libro)
         // registrarLibro.setOnClickListener(View.OnClickListener { agregarLibro() })
         return view
-        return inflater.inflate(R.layout.fragment_tienda, container, false)
     }
 
     fun cargarDatos(): ArrayList<co.edu.ufps.miapp.modelo.Tienda> {
@@ -67,14 +66,14 @@ class Tienda : Fragment() {
                 "",
                 "",
                 "",
-                ""))
+                "https://trucoslondres.com/wp-content/uploads/2017/05/store.jpg"))
         tiendas.add (co.edu.ufps.miapp.modelo.Tienda("13a",
             "Doña Naria",
             "Viveres",
             "",
             "",
             "",
-            ""))
+            "https://trucoslondres.com/wp-content/uploads/2017/05/store.jpg"))
         return tiendas
     }
 
