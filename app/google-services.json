@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771238608712",
+    "project_id": "miapp-7b510",
+    "storage_bucket": "miapp-7b510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771238608712:android:ab11a703c9d972abaefd7d",
+        "android_client_info": {
+          "package_name": "co.edu.ufps.miapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771238608712-k4qvhbblps1e5cld98drr8jeijeo1uil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnPLi4BAb1NtM-L_bUENrlsL3e2_wXH3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771238608712-k4qvhbblps1e5cld98drr8jeijeo1uil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
