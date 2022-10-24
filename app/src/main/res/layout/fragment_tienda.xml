@@ -5,6 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".vista.tienda"
     android:orientation="vertical">
-    <include layout="@layout/card"/>
-        <include layout="@layout/card"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contenedor_tienda">
+    </androidx.recyclerview.widget.RecyclerView>
 </LinearLayout>
